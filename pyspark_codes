@@ -1,0 +1,4 @@
+# create data frame manually in pyspark
+ data = [(1,'shashank'),(2,'gaurav')]
+ df=spark.createDataFrame(data=data)
+ df.show()
